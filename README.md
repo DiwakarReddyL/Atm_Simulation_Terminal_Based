@@ -38,7 +38,7 @@ pip install mysql-connector-python
 ## Update the MySQL connection credentials in the Python code
 ---
 - host="localhost"
-- user="root"
+- user="Your_mysql_user name"
 - password="your_mysql_password"
 - database="atm_simulation"
 ---
