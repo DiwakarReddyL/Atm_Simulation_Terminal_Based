@@ -32,10 +32,12 @@ CREATE TABLE accounts (
 ```
 
 ## How to Run the Project
-```pip install mysql-connector-python
+```
+pip install mysql-connector-python
 ```
 ---
 ## Update the MySQL connection credentials in the Python code
+---
 host="localhost"
 user="root"
 password="your_mysql_password"
