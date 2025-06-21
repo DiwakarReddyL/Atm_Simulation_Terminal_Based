@@ -23,7 +23,7 @@ CREATE DATABASE atm_simulation;
 USE atm_simulation;
 
 CREATE TABLE accounts (
-    account_number INT PRIMARY KEY,
+    account_number VORCHAR(20) PRIMARY KEY,
     name VARCHAR(100),
     pin INT,
     balance FLOAT DEFAULT 1000.00
