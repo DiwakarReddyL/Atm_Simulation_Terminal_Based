@@ -1,2 +1,47 @@
-# Atm_Simulation_Terminal_Based
-This is a mini Python project that simulates an ATM system using MySQL as the backend database. Users can register, log in, deposit or withdraw money, check balance, and change their PIN. The project demonstrates basic CRUD operations using Python and MySQL integration.
+#  ATM Simulation Project
+This is a simple Python project that simulates basic ATM functionalities using a MySQL database. It allows users to create an account, log in, deposit and withdraw money, check their balance, and change their PIN.
+---
+## Features
+- Register a new user with account number and PIN
+- Login with account number and PIN
+- Deposit amount to account
+- Withdraw amount with balance validation
+- Balance inquiry
+- Change account PIN
+- Logout
+---
+## Technologies Used
+- Python
+- MySQL
+- mysql-connector-python (Python package for connecting to MySQL)
+---
+## Database Setup
+Before running the project, make sure MySQL is installed and running. Then execute the following SQL commands:
+
+```sql
+CREATE DATABASE atm_simulation;
+
+USE atm_simulation;
+
+CREATE TABLE accounts (
+    account_number INT PRIMARY KEY,
+    name VARCHAR(100),
+    pin INT,
+    balance FLOAT DEFAULT 1000.00
+);
+```
+
+## How to Run the Project
+-->  pip install mysql-connector-python
+---
+## Update the MySQL connection credentials in the Python code
+host="localhost"
+user="root"
+password="your_mysql_password"
+database="atm_simulation"
+---
+## Run the Python script
+
+python atm_simulation.py
+
+---
