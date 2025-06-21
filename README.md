@@ -13,7 +13,6 @@ This is a simple Python project that simulates basic ATM functionalities using a
 ## Technologies Used
 - Python
 - MySQL
-- mysql-connector-python (Python package for connecting to MySQL)
 ---
 ## Database Setup
 Before running the project, make sure MySQL is installed and running. Then execute the following SQL commands:
@@ -31,21 +30,19 @@ CREATE TABLE accounts (
 );
 ```
 
-## How to Run the Project
+## Install this package
 ```
 pip install mysql-connector-python
 ```
 ---
 ## Update the MySQL connection credentials in the Python code
 ---
-host="localhost"
-user="root"
-password="your_mysql_password"
-database="atm_simulation"
+- host="localhost"
+- user="root"
+- password="your_mysql_password"
+- database="atm_simulation"
 ---
 ## Run the Python script
 ```
 python atm_simulation.py
 ```
-
----
