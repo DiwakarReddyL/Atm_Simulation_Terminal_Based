@@ -32,7 +32,8 @@ CREATE TABLE accounts (
 ```
 
 ## How to Run the Project
--->  pip install mysql-connector-python
+```pip install mysql-connector-python
+```
 ---
 ## Update the MySQL connection credentials in the Python code
 host="localhost"
@@ -41,7 +42,8 @@ password="your_mysql_password"
 database="atm_simulation"
 ---
 ## Run the Python script
-
+```
 python atm_simulation.py
+```
 
 ---
